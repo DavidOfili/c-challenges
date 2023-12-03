@@ -17,7 +17,7 @@ int main() {
     puts("Enter a word");
     fgets(word, 50, stdin);
 
-    // Determine name length
+    // Determine word length
     while (word[word_length] != '\0') {
         word_length++;
     }
